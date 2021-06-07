@@ -35,9 +35,9 @@ SET(${PARENT}_GETOPT                                OFF CACHE BOOL "" FORCE)
 ## Adding subdirectories according to the 3rd-party configuration
 ###############################################################################
 if (MSVC)
-	SET(${PARENT}_GETOPT        ON CACHE BOOL "" FORCE)
+    SET(${PARENT}_GETOPT        ON CACHE BOOL "" FORCE)
 endif()
 
 if(${PARENT}_GETOPT)
-	add_subdirectory(getopt)
+    add_subdirectory(getopt)
 endif()
