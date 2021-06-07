@@ -6,7 +6,7 @@ cmake_minimum_required(VERSION 3.13)
 ## PROJECT
 ## name and version
 ###############################################################################
-project(USBCAN_SDK LANGUAGES CXX)
+project(getopt LANGUAGES C)
 
 
 
@@ -14,7 +14,5 @@ project(USBCAN_SDK LANGUAGES CXX)
 ## INCLUDING SUBDIRECTORIES
 ## Adding subdirectories according to the configuration
 ###############################################################################
-# 3rdparty
-add_subdirectory(3rdparty)
-# src
+#src
 add_subdirectory(src)
