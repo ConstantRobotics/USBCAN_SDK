@@ -14,7 +14,5 @@ project(USBCAN_SDK LANGUAGES CXX)
 ## INCLUDING SUBDIRECTORIES
 ## Adding subdirectories according to the configuration
 ###############################################################################
-# 3rdparty
-add_subdirectory(3rdparty)
 # src
 add_subdirectory(src)
